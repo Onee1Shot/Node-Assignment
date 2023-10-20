@@ -10,7 +10,7 @@ import fileUpload from 'express-fileupload';
 const app = express();
 const PORT = 5000;
 
-mongoose.connect('mongodb+srv://omprakash:zolochip@cluster0.6mneyf0.mongodb.net/')
+mongoose.connect('mongodb+srv://omprakash:@cluster0.6mneyf0.mongodb.net/')
 
 mongoose.connection.on('error',err=>{
     console.log("Connection Failed");
