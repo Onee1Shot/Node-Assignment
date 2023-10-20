@@ -8,9 +8,9 @@ import checkAuth from '../middleware/JwtToken.js';
 import {v2 as cloudinary} from 'cloudinary';
 
 cloudinary.config({ 
-    cloud_name: 'dnnb642du', 
-    api_key: '152194549555959', 
-    api_secret: 'Kvzt1hFbKAE3MbZlCf_7x5wB2p4' 
+    cloud_name: '', 
+    api_key: '', 
+    api_secret: '' 
   });
 
 //get all request
